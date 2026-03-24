@@ -38,25 +38,34 @@ The system consists of:
 - System-level programming concepts
 
 ## 📂 Project Structure
+
+```
 src/
-├── main.cpp
-├── ledger.cpp
-├── network.cpp
+ ├── main.cpp
+ ├── ledger.cpp
+ ├── network.cpp
 include/
-├── ledger.h
-├── network.h
+ ├── ledger.h
+ ├── network.h
+tests/
+```
 
 ##  How to Run
 
 ```bash
 g++ src/main.cpp src/ledger.cpp src/network.cpp -Iinclude -lws2_32 -o ledger_app
 ledger_app
+```
 
-## Future Improvements
-Full distributed node-to-node communication
-Persistent storage for transactions
-Performance benchmarking and optimization
-Multi-client network simulation
+##  Future Improvements
 
-👨‍💻 Author
+- Full distributed node-to-node communication
+- Persistent storage for transactions
+- Performance benchmarking and optimization
+- Multi-client network simulation
+
+---
+
+## 👨‍💻 Author
+
 Harsh Raj
